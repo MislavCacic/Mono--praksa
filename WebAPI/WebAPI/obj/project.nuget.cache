@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "KHzdcL2bneY=",
+  "success": true,
+  "projectFilePath": "/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI_new/WebAPI/WebAPI.csproj",
+  "expectedPackageFiles": [
+    "/Users/mislavcacic/.nuget/packages/microsoft.aspnetcore.openapi/9.0.1/microsoft.aspnetcore.openapi.9.0.1.nupkg.sha512",
+    "/Users/mislavcacic/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
