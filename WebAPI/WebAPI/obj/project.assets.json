@@ -80,11 +80,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI_new/WebAPI/WebAPI.csproj",
+      "projectUniqueName": "/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI_new/WebAPI/WebAPI.csproj",
+      "projectPath": "/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/WebAPI.csproj",
       "packagesPath": "/Users/mislavcacic/.nuget/packages/",
-      "outputPath": "/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI_new/WebAPI/obj/",
+      "outputPath": "/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/mislavcacic/.nuget/NuGet/NuGet.Config"
