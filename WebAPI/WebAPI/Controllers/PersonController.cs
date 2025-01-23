@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using WebAPI.Models;
+using Npgsql;
 
 namespace WebAPI.Controllers
 {
@@ -8,106 +9,225 @@ namespace WebAPI.Controllers
 
     public class PersonController : ControllerBase
     {
-        private static List<Person> persons = new List<Person>();
+        private readonly string connectionString = "Host=ep-purple-mountain-a9g0az1p.gwc.azure.neon.tech;Port=5432;Database=neondb;Username=neondb_owner;Password=npg_tTf6oXQID0Bj;SSL Mode=Require";
 
         [HttpGet]
         public IActionResult Get()
         {
-            Console.WriteLine(persons.Count);
-            if (!persons.Any())
+            var persons = new List<Person>();
+
+            try
             {
-                return NoContent();
+                using (var connection = new NpgsqlConnection(connectionString))
+                {
+                    var commandText = "SELECT \"Id\", \"Name\", \"Surname\", \"Email\", \"PhoneNumber\" FROM \"Person\"";
+                    using var command = new NpgsqlCommand(commandText, connection);
+
+                    connection.Open();
+
+                    var reader = command.ExecuteReader();
+                    if (reader.HasRows)
+                    {
+                        while (reader.Read())
+                        {
+                            var id = Guid.Parse(reader[0].ToString()!);
+                            var name = reader[1].ToString();
+                            var surname = reader[2].ToString();
+                            var email = reader[3].ToString();
+                            var phoneNumber = int.TryParse(reader[4].ToString(), out int result) ? result : 0;
+
+                            //var person = new Person() { Id = id, Name = name, Surname = surname, Email = email, PhoneNumber = phoneNumber };
+                            //persons.Add(person);
+                        }
+                    }
+                    else
+                    {
+                        return NotFound();
+                    }
+
+                    connection.Close();
+
+                    return Ok(persons);
+                }
             }
-            return Ok(persons);
+
+            catch (Exception exception)
+            {
+                return BadRequest(
+                    new
+                    {
+                        error = "Bad request",
+                        message = exception.Message
+                    });
+            }
         }
 
         [HttpGet("{id}")]
-        public IActionResult Get(int id)
+        public IActionResult Get(Guid id)
         {
-            var resource = persons.FirstOrDefault(p => p.Id == id);
+            var person = new Person();
 
-            if (resource == null)
+            try
             {
-                return NotFound(new
+                using (var connection = new NpgsqlConnection(connectionString))
                 {
-                    error = "Person isn't found",
-                    message = $"Person with ID {id} doesn't exist."
-                });
+                    var commandText = "SELECT " +
+                        "\"Person\".\"Id\", \"Name\", \"Surname\".\"Email\", \"PhoneNumber\"" +
+                        "FROM \"Person\" " +
+                        "WHERE \"Person\".\"Id\" = @id;";
+
+                    using var command = new NpgsqlCommand(commandText, connection);
+
+                    connection.Open();
+
+                    var reader = command.ExecuteReader();
+                    if (reader.HasRows)
+                    {
+                        reader.Read();
+                        person.Id = Guid.Parse(reader[0].ToString()!);
+                        person.Name = reader[1].ToString();
+                        person.Surname = reader[2].ToString();
+                        person.Email = reader[3].ToString();
+                        person.PhoneNumber = int.TryParse(reader[4].ToString(), out int result) ? result : 0;
+                    }
+
+                    connection.Close();
+
+                    return Ok(person);
+                }
             }
-            return Ok(resource);
+
+            catch (Exception exception)
+            {
+                return BadRequest(
+                    new
+                    {
+                        error = "Bad request",
+                        message = exception.Message
+                    });
+            }
         }
 
         [HttpDelete("{id}")]
-        public IActionResult Delete(int id)
+        public IActionResult Delete(Guid id)
         {
-            var resource = persons.FirstOrDefault(p => p.Id == id);
-
-            if (resource == null)
+            try
             {
-                return NotFound(new
+                using (var connection = new NpgsqlConnection(connectionString))
                 {
-                    error = "Person isn't found",
-                    message = $"Person with ID {id} doesn't exist."
-                });
+                    var commandText = "DELETE FROM \"Person\"" +
+                        "WHERE \"Id\" = @id;";
+                    using var command = new NpgsqlCommand(commandText, connection);
+
+                    command.Parameters.AddWithValue("id", NpgsqlTypes.NpgsqlDbType.Uuid, id);
+
+                    connection.Open();
+
+                    var affectedRows = command.ExecuteNonQuery();
+                    if (affectedRows == 0)
+                    {
+                        connection.Close();
+                        return NotFound();
+                    }
+
+                    connection.Close();
+
+                    return Ok("Person deleted.");
+                }
             }
-            persons.Remove(resource);
-            return Ok();
+
+            catch (Exception exception)
+            {
+                return BadRequest(
+                    new
+                    {
+                        error = "Something went wrong.",
+                        message = exception.Message
+                    });
+            }
         }
 
         [HttpPost]
         public IActionResult Post([FromBody] Person person)
         {
-            if (person == null || string.IsNullOrEmpty(person.Name) || string.IsNullOrEmpty(person.Surname))
+            try
+            {
+                using (var connection = new NpgsqlConnection(connectionString))
+                {
+                    var commandText = "INSERT INTO \"Person\" (\"Id\", \"Name\", \"Surname\", \"Email\", \"PhoneNumber\") VALUES (@id, @name, @surname, @email, @phoneNumber);";
+
+                    using (var command = new NpgsqlCommand(commandText, connection))
+                    {
+                        command.Parameters.AddWithValue("id", NpgsqlTypes.NpgsqlDbType.Uuid, Guid.NewGuid());
+                        command.Parameters.AddWithValue("name", person.Name);
+                        command.Parameters.AddWithValue("surname", person.Surname);
+                        command.Parameters.AddWithValue("email", person.Email);
+                        command.Parameters.AddWithValue("mobile", person.PhoneNumber);
+
+                        var rowsAffected = command.ExecuteNonQuery();
+
+                        if (rowsAffected == 0)
+                            return BadRequest();
+
+                        connection.Close();
+
+                        return Ok("Person saved.");
+                    }
+                }
+            }
+
+            catch (Exception exception)
             {
                 return BadRequest(new
                 {
-                    error = "Bad Request",
-                    message = "Name and Surname are required."
+                    error = "Something went wrong!",
+                    message = exception.Message
                 });
             }
-
-            int newId = persons.Any() ? persons.Max(p => p.Id) + 1 : 1;
-            person.Id = newId;
-
-            persons.Add(person);
-
-            //Console.WriteLine($"Added person with ID: {newId}");
-            return Ok(new
-            {
-                message = "Person successfully added.",
-                data = person
-            });
         }
 
         [HttpPut("{id}")]
         public IActionResult Put(int id, [FromBody] Person person)
         {
-            var source = persons.FirstOrDefault(p => p.Id == id);
-
-            if (source == null)
+            try
             {
-                return NotFound(new
+                using (var connection = new NpgsqlConnection(connectionString))
                 {
-                    error = "Person isn't found",
-                    message = $"Person with ID {id} doesn't exist."
-                });
+                    var commandText = "SELECT \"Id\", \"Name\", \"Surname\", \"Email\", \"PhoneNumber\" " +
+                        "FROM \"Person\" " +
+                        "WHERE \"Id\" = @id;";
+
+                    using var command = new NpgsqlCommand(commandText, connection);
+                    command.Parameters.AddWithValue("id", NpgsqlTypes.NpgsqlDbType.Uuid, id);
+
+                    connection.Open();
+
+                    var reader = command.ExecuteReader();
+                    if(!reader.HasRows)
+                    {
+                        connection.Close();
+                        return NotFound();
+                    }
+
+                    var rowsAffected = command.ExecuteNonQuery();
+
+                    if (rowsAffected == 0)
+                        return BadRequest();
+
+                    connection.Close();
+
+                    return Ok("Person updated.");
+                }
             }
 
-            if (person == null || person.Name == null || person.Surname == null)
+            catch (Exception exception)
+            {
                 return BadRequest(new
                 {
-                    error = "Bad Request",
-                    message = "Name and Surname are required."
+                    error = "Something went wrong.",
+                    message = exception.Message
                 });
-
-            source.Name = person.Name;
-            source.Surname = person.Surname;
-
-            return Ok(new
-            {
-                message = "Person successfully updated.",
-                data = person
-            });
+            }
         }
     }
 }
