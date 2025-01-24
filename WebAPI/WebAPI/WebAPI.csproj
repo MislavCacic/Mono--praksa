@@ -11,4 +11,10 @@
     <PackageReference Include="Npgsql" Version="9.0.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="Service\Service.csproj" />
+    <ProjectReference Include="Model\Model.csproj" />
+    <ProjectReference Include="Repository\Repository.csproj" />
+  </ItemGroup>
+
 </Project>

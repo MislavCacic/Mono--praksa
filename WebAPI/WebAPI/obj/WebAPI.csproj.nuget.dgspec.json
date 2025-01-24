@@ -25,7 +25,17 @@
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Model/Model.csproj": {
+                "projectPath": "/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Model/Model.csproj"
+              },
+              "/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Repository/Repository.csproj": {
+                "projectPath": "/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Repository/Repository.csproj"
+              },
+              "/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Service/Service.csproj": {
+                "projectPath": "/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Service/Service.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
