@@ -36,8 +36,8 @@ namespace WebAPI.Controllers
                             var email = reader[3].ToString();
                             var phoneNumber = int.TryParse(reader[4].ToString(), out int result) ? result : 0;
 
-                            //var person = new Person() { Id = id, Name = name, Surname = surname, Email = email, PhoneNumber = phoneNumber };
-                            //persons.Add(person);
+                            var person = new Person() { Id = id, Name = name, Surname = surname, Email = email, PhoneNumber = phoneNumber };
+                            persons.Add(person);
                         }
                     }
                     else
