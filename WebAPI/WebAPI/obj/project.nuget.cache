@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "BF8hCv/wt+M=",
+  "dgSpecHash": "/5UJKGybxuM=",
   "success": false,
   "projectFilePath": "/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/WebAPI.csproj",
   "expectedPackageFiles": [
@@ -12,28 +12,10 @@
   ],
   "logs": [
     {
-      "code": "NU1105",
+      "code": "NU1104",
       "level": "Error",
-      "message": "Unable to find project information for '/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Service/Service.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
-      "libraryId": "/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Service/Service.csproj",
-      "targetGraphs": [
-        "net9.0"
-      ]
-    },
-    {
-      "code": "NU1105",
-      "level": "Error",
-      "message": "Unable to find project information for '/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Model/Model.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
-      "libraryId": "/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Model/Model.csproj",
-      "targetGraphs": [
-        "net9.0"
-      ]
-    },
-    {
-      "code": "NU1105",
-      "level": "Error",
-      "message": "Unable to find project information for '/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Repository/Repository.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
-      "libraryId": "/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Repository/Repository.csproj",
+      "message": "Unable to find project '/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/Service/Service.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/Service/Service.csproj",
       "targetGraphs": [
         "net9.0"
       ]

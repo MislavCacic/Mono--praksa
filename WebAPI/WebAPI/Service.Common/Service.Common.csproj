@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Common/Common.csproj"/>
+    <ProjectReference Include="/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Model/Model.csproj"/>
+  </ItemGroup>
+
+</Project>

@@ -6,4 +6,11 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Common/Common.csproj"/>
+    <ProjectReference Include="/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Model/Model.csproj"/>
+    <ProjectReference Include="/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Repository/Repository.csproj"/>
+    <ProjectReference Include="/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Service.Common/Service.Common.csproj"/>
+  </ItemGroup>
+
 </Project>

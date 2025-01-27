@@ -84,6 +84,90 @@
             "related": ".xml"
           }
         }
+      },
+      "Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Common.dll": {}
+        }
+      },
+      "Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Common": "1.0.0",
+          "Npgsql": "9.0.2"
+        },
+        "compile": {
+          "bin/placeholder/Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Model.dll": {}
+        }
+      },
+      "Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Common": "1.0.0",
+          "Model": "1.0.0",
+          "Npgsql": "9.0.2",
+          "Repository.Common": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Repository.dll": {}
+        }
+      },
+      "Repository.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Common": "1.0.0",
+          "Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Repository.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Repository.Common.dll": {}
+        }
+      },
+      "Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Common": "1.0.0",
+          "Model": "1.0.0",
+          "Repository": "1.0.0",
+          "Service.Common": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Service.dll": {}
+        }
+      },
+      "Service.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Common": "1.0.0",
+          "Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Service.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Service.Common.dll": {}
+        }
       }
     }
   },
@@ -240,15 +324,49 @@
         "npgsql.nuspec",
         "postgresql.png"
       ]
+    },
+    "Common/1.0.0": {
+      "type": "project",
+      "path": "Common/Common.csproj",
+      "msbuildProject": "Common/Common.csproj"
+    },
+    "Model/1.0.0": {
+      "type": "project",
+      "path": "Model/Model.csproj",
+      "msbuildProject": "Model/Model.csproj"
+    },
+    "Repository/1.0.0": {
+      "type": "project",
+      "path": "Repository/Repository.csproj",
+      "msbuildProject": "Repository/Repository.csproj"
+    },
+    "Repository.Common/1.0.0": {
+      "type": "project",
+      "path": "Repository.Common/Repository.Common.csproj",
+      "msbuildProject": "Repository.Common/Repository.Common.csproj"
+    },
+    "Service/1.0.0": {
+      "type": "project",
+      "path": "Service/Service.csproj",
+      "msbuildProject": "Service/Service.csproj"
+    },
+    "Service.Common/1.0.0": {
+      "type": "project",
+      "path": "Service.Common/Service.Common.csproj",
+      "msbuildProject": "Service.Common/Service.Common.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Model/Model.csproj",
-      "/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Repository/Repository.csproj",
-      "/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Service/Service.csproj",
+      "/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/Service/Service.csproj",
+      "Common >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 9.0.1",
-      "Npgsql >= 9.0.2"
+      "Model >= 1.0.0",
+      "Npgsql >= 9.0.2",
+      "Repository >= 1.0.0",
+      "Repository.Common >= 1.0.0",
+      "Service >= 1.0.0",
+      "Service.Common >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -276,11 +394,23 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
+            "/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/Service/Service.csproj": {
+              "projectPath": "/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/Service/Service.csproj"
+            },
+            "/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Common/Common.csproj": {
+              "projectPath": "/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Common/Common.csproj"
+            },
             "/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Model/Model.csproj": {
               "projectPath": "/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Model/Model.csproj"
             },
+            "/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Repository.Common/Repository.Common.csproj": {
+              "projectPath": "/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Repository.Common/Repository.Common.csproj"
+            },
             "/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Repository/Repository.csproj": {
               "projectPath": "/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Repository/Repository.csproj"
+            },
+            "/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Service.Common/Service.Common.csproj": {
+              "projectPath": "/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Service.Common/Service.Common.csproj"
             },
             "/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Service/Service.csproj": {
               "projectPath": "/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Service/Service.csproj"
@@ -338,28 +468,10 @@
   },
   "logs": [
     {
-      "code": "NU1105",
+      "code": "NU1104",
       "level": "Error",
-      "message": "Unable to find project information for '/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Service/Service.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
-      "libraryId": "/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Service/Service.csproj",
-      "targetGraphs": [
-        "net9.0"
-      ]
-    },
-    {
-      "code": "NU1105",
-      "level": "Error",
-      "message": "Unable to find project information for '/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Model/Model.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
-      "libraryId": "/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Model/Model.csproj",
-      "targetGraphs": [
-        "net9.0"
-      ]
-    },
-    {
-      "code": "NU1105",
-      "level": "Error",
-      "message": "Unable to find project information for '/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Repository/Repository.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
-      "libraryId": "/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Repository/Repository.csproj",
+      "message": "Unable to find project '/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/Service/Service.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/Service/Service.csproj",
       "targetGraphs": [
         "net9.0"
       ]
