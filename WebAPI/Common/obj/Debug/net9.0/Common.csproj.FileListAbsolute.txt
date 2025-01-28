@@ -1,0 +1,35 @@
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Common/bin/Debug/net9.0/Common.deps.json
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Common/bin/Debug/net9.0/Common.dll
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Common/bin/Debug/net9.0/Common.pdb
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Common/obj/Debug/net9.0/Common.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Common/obj/Debug/net9.0/Common.AssemblyInfoInputs.cache
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Common/obj/Debug/net9.0/Common.AssemblyInfo.cs
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Common/obj/Debug/net9.0/Common.csproj.CoreCompileInputs.cache
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Common/obj/Debug/net9.0/Common.sourcelink.json
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Common/obj/Debug/net9.0/Common.dll
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Common/obj/Debug/net9.0/refint/Common.dll
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Common/obj/Debug/net9.0/Common.pdb
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Common/obj/Debug/net9.0/ref/Common.dll
+C:/Users/filip/Downloads/WebAPI/WebAPI/Common/bin/Debug/net9.0/Common.deps.json
+C:/Users/filip/Downloads/WebAPI/WebAPI/Common/bin/Debug/net9.0/Common.dll
+C:/Users/filip/Downloads/WebAPI/WebAPI/Common/bin/Debug/net9.0/Common.pdb
+C:/Users/filip/Downloads/WebAPI/WebAPI/Common/obj/Debug/net9.0/Common.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/filip/Downloads/WebAPI/WebAPI/Common/obj/Debug/net9.0/Common.AssemblyInfoInputs.cache
+C:/Users/filip/Downloads/WebAPI/WebAPI/Common/obj/Debug/net9.0/Common.AssemblyInfo.cs
+C:/Users/filip/Downloads/WebAPI/WebAPI/Common/obj/Debug/net9.0/Common.csproj.CoreCompileInputs.cache
+C:/Users/filip/Downloads/WebAPI/WebAPI/Common/obj/Debug/net9.0/Common.dll
+C:/Users/filip/Downloads/WebAPI/WebAPI/Common/obj/Debug/net9.0/refint/Common.dll
+C:/Users/filip/Downloads/WebAPI/WebAPI/Common/obj/Debug/net9.0/Common.pdb
+C:/Users/filip/Downloads/WebAPI/WebAPI/Common/obj/Debug/net9.0/ref/Common.dll
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/Common/bin/Debug/net9.0/Common.deps.json
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/Common/bin/Debug/net9.0/Common.dll
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/Common/bin/Debug/net9.0/Common.pdb
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/Common/obj/Debug/net9.0/Common.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/Common/obj/Debug/net9.0/Common.AssemblyInfoInputs.cache
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/Common/obj/Debug/net9.0/Common.AssemblyInfo.cs
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/Common/obj/Debug/net9.0/Common.csproj.CoreCompileInputs.cache
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/Common/obj/Debug/net9.0/Common.sourcelink.json
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/Common/obj/Debug/net9.0/Common.dll
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/Common/obj/Debug/net9.0/refint/Common.dll
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/Common/obj/Debug/net9.0/Common.pdb
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/Common/obj/Debug/net9.0/ref/Common.dll

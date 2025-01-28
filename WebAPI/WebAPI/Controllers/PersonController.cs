@@ -1,47 +1,68 @@
 using Model;
 using Microsoft.AspNetCore.Mvc;
-using Service;
+using Common;
+using Service.Common;
 
 namespace WebAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-
+    //[LogActionFilter]
     public class PersonController : ControllerBase
     {
-        private readonly string connectionString =
-            "Host=ep-purple-mountain-a9g0az1p.gwc.azure.neon.tech;Port=5432;Database=neondb;Username=neondb_owner;Password=npg_tTf6oXQID0Bj;SSL Mode=Require";
+        private IPersonService _service;
 
-        [HttpGet]
-        public async Task<IActionResult> GetAllAsync([FromQuery] string? name = null,
-            [FromQuery] string? surname = null, [FromQuery] string? email = null, [FromQuery] int? phoneNumber = null)
+        public PersonController(IPersonService personService)
         {
-            var service = new PersonService();
-            var persons = await service.GetAllAsync(name, surname, email, phoneNumber);
+            _service = personService;
+        }
 
-            if (persons == null)
+        public async Task<IActionResult> GetAllAsync(
+            string? name = null, string? surname = null, string? email = null, int? phoneNumber = null,
+            string orderBy = "Id", string sortOrder = "ASC",
+            int currentPage = 1, int rpp = 5)
+        {
+            var dogFilter = new PersonFilter()
+            {
+                Name = name,
+                Surname = surname,
+            };
+
+            var sorting = new Sorting()
+            {
+                OrderBy = orderBy,
+                SortOrder = sortOrder
+            };
+
+            var paging = new Paging()
+            {
+                Rpp = rpp,
+                PageNumber = currentPage,
+            };
+
+            var response = await _service.GetAllAsync(dogFilter, sorting, paging);
+
+            if (response == null)
                 return BadRequest();
 
-            return Ok(persons);
+            return Ok(response);
         }
 
         [HttpGet("{id}")]
         public async Task<IActionResult> GetByIdAsync(Guid id)
         {
-            var service = new PersonService();
-            var dog = await service.GetByIdAsync(id);
+            var person = await _service.GetByIdAsync(id);
 
-            if (dog == null)
+            if (person == null)
                 return BadRequest();
 
-            return Ok(dog);
+            return Ok(person);
         }
 
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteAsync(Guid id)
         {
-            var service = new PersonService();
-            var success = await service.DeleteAsync(id);
+            var success = await _service.DeleteAsync(id);
 
             if (!success)
                 return BadRequest();
@@ -59,8 +80,7 @@ namespace WebAPI.Controllers
                     message = "Invalid data."
                 });
 
-            var service = new PersonService();
-            var success = await service.SaveAsync(person);
+            var success = await _service.SaveAsync(person);
 
             if (!success)
                 return BadRequest();
@@ -78,8 +98,7 @@ namespace WebAPI.Controllers
                     message = "Invalid data."
                 });
 
-            var service = new PersonService();
-            var success = await service.UpdateAsync(id, person);
+            var success = await _service.UpdateAsync(id, person);
 
             if (!success)
                 return BadRequest();

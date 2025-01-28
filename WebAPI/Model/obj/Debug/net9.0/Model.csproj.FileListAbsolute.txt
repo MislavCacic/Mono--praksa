@@ -1,0 +1,47 @@
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Model/bin/Debug/net9.0/Model.deps.json
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Model/bin/Debug/net9.0/Model.dll
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Model/bin/Debug/net9.0/Model.pdb
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Model/bin/Debug/net9.0/Common.dll
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Model/bin/Debug/net9.0/Common.pdb
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Model/obj/Debug/net9.0/Model.csproj.AssemblyReference.cache
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Model/obj/Debug/net9.0/Model.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Model/obj/Debug/net9.0/Model.AssemblyInfoInputs.cache
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Model/obj/Debug/net9.0/Model.AssemblyInfo.cs
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Model/obj/Debug/net9.0/Model.csproj.CoreCompileInputs.cache
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Model/obj/Debug/net9.0/Model.sourcelink.json
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Model/obj/Debug/net9.0/Model.csproj.Up2Date
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Model/obj/Debug/net9.0/Model.dll
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Model/obj/Debug/net9.0/refint/Model.dll
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Model/obj/Debug/net9.0/Model.pdb
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Model/obj/Debug/net9.0/ref/Model.dll
+C:/Users/filip/Downloads/WebAPI/WebAPI/Model/bin/Debug/net9.0/Model.deps.json
+C:/Users/filip/Downloads/WebAPI/WebAPI/Model/bin/Debug/net9.0/Model.dll
+C:/Users/filip/Downloads/WebAPI/WebAPI/Model/bin/Debug/net9.0/Model.pdb
+C:/Users/filip/Downloads/WebAPI/WebAPI/Model/bin/Debug/net9.0/Common.dll
+C:/Users/filip/Downloads/WebAPI/WebAPI/Model/bin/Debug/net9.0/Common.pdb
+C:/Users/filip/Downloads/WebAPI/WebAPI/Model/obj/Debug/net9.0/Model.csproj.AssemblyReference.cache
+C:/Users/filip/Downloads/WebAPI/WebAPI/Model/obj/Debug/net9.0/Model.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/filip/Downloads/WebAPI/WebAPI/Model/obj/Debug/net9.0/Model.AssemblyInfoInputs.cache
+C:/Users/filip/Downloads/WebAPI/WebAPI/Model/obj/Debug/net9.0/Model.AssemblyInfo.cs
+C:/Users/filip/Downloads/WebAPI/WebAPI/Model/obj/Debug/net9.0/Model.csproj.CoreCompileInputs.cache
+C:/Users/filip/Downloads/WebAPI/WebAPI/Model/obj/Debug/net9.0/Model.csproj.Up2Date
+C:/Users/filip/Downloads/WebAPI/WebAPI/Model/obj/Debug/net9.0/Model.dll
+C:/Users/filip/Downloads/WebAPI/WebAPI/Model/obj/Debug/net9.0/refint/Model.dll
+C:/Users/filip/Downloads/WebAPI/WebAPI/Model/obj/Debug/net9.0/Model.pdb
+C:/Users/filip/Downloads/WebAPI/WebAPI/Model/obj/Debug/net9.0/ref/Model.dll
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/Model/bin/Debug/net9.0/Model.deps.json
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/Model/bin/Debug/net9.0/Model.dll
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/Model/bin/Debug/net9.0/Model.pdb
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/Model/bin/Debug/net9.0/Common.dll
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/Model/bin/Debug/net9.0/Common.pdb
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/Model/obj/Debug/net9.0/Model.csproj.AssemblyReference.cache
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/Model/obj/Debug/net9.0/Model.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/Model/obj/Debug/net9.0/Model.AssemblyInfoInputs.cache
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/Model/obj/Debug/net9.0/Model.AssemblyInfo.cs
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/Model/obj/Debug/net9.0/Model.csproj.CoreCompileInputs.cache
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/Model/obj/Debug/net9.0/Model.sourcelink.json
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/Model/obj/Debug/net9.0/Model.csproj.Up2Date
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/Model/obj/Debug/net9.0/Model.dll
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/Model/obj/Debug/net9.0/refint/Model.dll
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/Model/obj/Debug/net9.0/Model.pdb
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/Model/obj/Debug/net9.0/ref/Model.dll

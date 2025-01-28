@@ -1,0 +1,59 @@
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Repository/bin/Debug/net9.0/Repository.deps.json
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Repository/bin/Debug/net9.0/Repository.dll
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Repository/bin/Debug/net9.0/Repository.pdb
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Repository/bin/Debug/net9.0/Common.dll
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Repository/bin/Debug/net9.0/Model.dll
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Repository/bin/Debug/net9.0/Repository.Common.dll
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Repository/bin/Debug/net9.0/Common.pdb
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Repository/bin/Debug/net9.0/Model.pdb
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Repository/bin/Debug/net9.0/Repository.Common.pdb
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Repository/obj/Debug/net9.0/Repository.csproj.AssemblyReference.cache
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Repository/obj/Debug/net9.0/Repository.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Repository/obj/Debug/net9.0/Repository.AssemblyInfoInputs.cache
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Repository/obj/Debug/net9.0/Repository.AssemblyInfo.cs
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Repository/obj/Debug/net9.0/Repository.csproj.CoreCompileInputs.cache
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Repository/obj/Debug/net9.0/Repository.sourcelink.json
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Repository/obj/Debug/net9.0/Repository.csproj.Up2Date
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Repository/obj/Debug/net9.0/Repository.dll
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Repository/obj/Debug/net9.0/refint/Repository.dll
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Repository/obj/Debug/net9.0/Repository.pdb
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Repository/obj/Debug/net9.0/ref/Repository.dll
+C:/Users/filip/Downloads/WebAPI/WebAPI/Repository/bin/Debug/net9.0/Repository.deps.json
+C:/Users/filip/Downloads/WebAPI/WebAPI/Repository/bin/Debug/net9.0/Repository.dll
+C:/Users/filip/Downloads/WebAPI/WebAPI/Repository/bin/Debug/net9.0/Repository.pdb
+C:/Users/filip/Downloads/WebAPI/WebAPI/Repository/bin/Debug/net9.0/Common.dll
+C:/Users/filip/Downloads/WebAPI/WebAPI/Repository/bin/Debug/net9.0/Model.dll
+C:/Users/filip/Downloads/WebAPI/WebAPI/Repository/bin/Debug/net9.0/Repository.Common.dll
+C:/Users/filip/Downloads/WebAPI/WebAPI/Repository/bin/Debug/net9.0/Common.pdb
+C:/Users/filip/Downloads/WebAPI/WebAPI/Repository/bin/Debug/net9.0/Model.pdb
+C:/Users/filip/Downloads/WebAPI/WebAPI/Repository/bin/Debug/net9.0/Repository.Common.pdb
+C:/Users/filip/Downloads/WebAPI/WebAPI/Repository/obj/Debug/net9.0/Repository.csproj.AssemblyReference.cache
+C:/Users/filip/Downloads/WebAPI/WebAPI/Repository/obj/Debug/net9.0/Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/filip/Downloads/WebAPI/WebAPI/Repository/obj/Debug/net9.0/Repository.AssemblyInfoInputs.cache
+C:/Users/filip/Downloads/WebAPI/WebAPI/Repository/obj/Debug/net9.0/Repository.AssemblyInfo.cs
+C:/Users/filip/Downloads/WebAPI/WebAPI/Repository/obj/Debug/net9.0/Repository.csproj.CoreCompileInputs.cache
+C:/Users/filip/Downloads/WebAPI/WebAPI/Repository/obj/Debug/net9.0/Repository.csproj.Up2Date
+C:/Users/filip/Downloads/WebAPI/WebAPI/Repository/obj/Debug/net9.0/Repository.dll
+C:/Users/filip/Downloads/WebAPI/WebAPI/Repository/obj/Debug/net9.0/refint/Repository.dll
+C:/Users/filip/Downloads/WebAPI/WebAPI/Repository/obj/Debug/net9.0/Repository.pdb
+C:/Users/filip/Downloads/WebAPI/WebAPI/Repository/obj/Debug/net9.0/ref/Repository.dll
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/Repository/bin/Debug/net9.0/Repository.deps.json
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/Repository/bin/Debug/net9.0/Repository.dll
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/Repository/bin/Debug/net9.0/Repository.pdb
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/Repository/bin/Debug/net9.0/Common.dll
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/Repository/bin/Debug/net9.0/Model.dll
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/Repository/bin/Debug/net9.0/Repository.Common.dll
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/Repository/bin/Debug/net9.0/Common.pdb
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/Repository/bin/Debug/net9.0/Model.pdb
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/Repository/bin/Debug/net9.0/Repository.Common.pdb
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/Repository/obj/Debug/net9.0/Repository.csproj.AssemblyReference.cache
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/Repository/obj/Debug/net9.0/Repository.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/Repository/obj/Debug/net9.0/Repository.AssemblyInfoInputs.cache
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/Repository/obj/Debug/net9.0/Repository.AssemblyInfo.cs
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/Repository/obj/Debug/net9.0/Repository.csproj.CoreCompileInputs.cache
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/Repository/obj/Debug/net9.0/Repository.sourcelink.json
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/Repository/obj/Debug/net9.0/Repository.csproj.Up2Date
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/Repository/obj/Debug/net9.0/Repository.dll
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/Repository/obj/Debug/net9.0/refint/Repository.dll
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/Repository/obj/Debug/net9.0/Repository.pdb
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/Repository/obj/Debug/net9.0/ref/Repository.dll

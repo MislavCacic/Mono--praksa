@@ -1,33 +1,73 @@
-/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI_new/WebAPI/bin/Debug/net9.0/appsettings.Development.json
-/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI_new/WebAPI/bin/Debug/net9.0/appsettings.json
-/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI_new/WebAPI/bin/Debug/net9.0/WebAPI.staticwebassets.endpoints.json
-/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI_new/WebAPI/bin/Debug/net9.0/WebAPI
-/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI_new/WebAPI/bin/Debug/net9.0/WebAPI.deps.json
-/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI_new/WebAPI/bin/Debug/net9.0/WebAPI.runtimeconfig.json
-/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI_new/WebAPI/bin/Debug/net9.0/WebAPI.dll
-/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI_new/WebAPI/bin/Debug/net9.0/WebAPI.pdb
-/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI_new/WebAPI/bin/Debug/net9.0/Microsoft.AspNetCore.OpenApi.dll
-/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI_new/WebAPI/bin/Debug/net9.0/Microsoft.OpenApi.dll
-/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI_new/WebAPI/obj/Debug/net9.0/WebAPI.csproj.AssemblyReference.cache
-/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI_new/WebAPI/obj/Debug/net9.0/WebAPI.GeneratedMSBuildEditorConfig.editorconfig
-/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI_new/WebAPI/obj/Debug/net9.0/WebAPI.AssemblyInfoInputs.cache
-/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI_new/WebAPI/obj/Debug/net9.0/WebAPI.AssemblyInfo.cs
-/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI_new/WebAPI/obj/Debug/net9.0/WebAPI.csproj.CoreCompileInputs.cache
-/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI_new/WebAPI/obj/Debug/net9.0/WebAPI.MvcApplicationPartsAssemblyInfo.cs
-/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI_new/WebAPI/obj/Debug/net9.0/WebAPI.MvcApplicationPartsAssemblyInfo.cache
-/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI_new/WebAPI/obj/Debug/net9.0/scopedcss/bundle/WebAPI.styles.css
-/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI_new/WebAPI/obj/Debug/net9.0/staticwebassets.build.json
-/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI_new/WebAPI/obj/Debug/net9.0/staticwebassets.development.json
-/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI_new/WebAPI/obj/Debug/net9.0/staticwebassets.build.endpoints.json
-/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI_new/WebAPI/obj/Debug/net9.0/staticwebassets/msbuild.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props
-/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI_new/WebAPI/obj/Debug/net9.0/staticwebassets/msbuild.WebAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI_new/WebAPI/obj/Debug/net9.0/staticwebassets/msbuild.build.WebAPI.props
-/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI_new/WebAPI/obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.WebAPI.props
-/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI_new/WebAPI/obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.WebAPI.props
-/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI_new/WebAPI/obj/Debug/net9.0/staticwebassets.pack.json
-/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI_new/WebAPI/obj/Debug/net9.0/WebAPI.csproj.Up2Date
-/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI_new/WebAPI/obj/Debug/net9.0/WebAPI.dll
-/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI_new/WebAPI/obj/Debug/net9.0/refint/WebAPI.dll
-/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI_new/WebAPI/obj/Debug/net9.0/WebAPI.pdb
-/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI_new/WebAPI/obj/Debug/net9.0/WebAPI.genruntimeconfig.cache
-/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI_new/WebAPI/obj/Debug/net9.0/ref/WebAPI.dll
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Controllers/obj/Debug/net9.0/WebAPI.csproj.AssemblyReference.cache
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Controllers/obj/Debug/net9.0/WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Controllers/obj/Debug/net9.0/WebAPI.AssemblyInfoInputs.cache
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Controllers/obj/Debug/net9.0/WebAPI.AssemblyInfo.cs
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Controllers/obj/Debug/net9.0/WebAPI.csproj.CoreCompileInputs.cache
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Controllers/obj/Debug/net9.0/WebAPI.MvcApplicationPartsAssemblyInfo.cs
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Controllers/obj/Debug/net9.0/WebAPI.MvcApplicationPartsAssemblyInfo.cache
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/Controllers/obj/Debug/net9.0/WebAPI.sourcelink.json
+C:/Users/filip/Downloads/WebAPI/WebAPI/WebAPI/obj/Debug/net9.0/WebAPI.csproj.AssemblyReference.cache
+C:/Users/filip/Downloads/WebAPI/WebAPI/WebAPI/obj/Debug/net9.0/WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/filip/Downloads/WebAPI/WebAPI/WebAPI/obj/Debug/net9.0/WebAPI.AssemblyInfoInputs.cache
+C:/Users/filip/Downloads/WebAPI/WebAPI/WebAPI/obj/Debug/net9.0/WebAPI.AssemblyInfo.cs
+C:/Users/filip/Downloads/WebAPI/WebAPI/WebAPI/obj/Debug/net9.0/WebAPI.csproj.CoreCompileInputs.cache
+C:/Users/filip/Downloads/WebAPI/WebAPI/WebAPI/obj/Debug/net9.0/WebAPI.MvcApplicationPartsAssemblyInfo.cs
+C:/Users/filip/Downloads/WebAPI/WebAPI/WebAPI/obj/Debug/net9.0/WebAPI.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/filip/Downloads/WebAPI/WebAPI/WebAPI/obj/Debug/net9.0/WebAPI.dll
+C:/Users/filip/Downloads/WebAPI/WebAPI/WebAPI/obj/Debug/net9.0/refint/WebAPI.dll
+C:/Users/filip/Downloads/WebAPI/WebAPI/WebAPI/obj/Debug/net9.0/WebAPI.pdb
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/bin/Debug/net9.0/appsettings.Development.json
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/bin/Debug/net9.0/appsettings.json
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/bin/Debug/net9.0/WebAPI.staticwebassets.endpoints.json
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/bin/Debug/net9.0/WebAPI
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/bin/Debug/net9.0/WebAPI.deps.json
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/bin/Debug/net9.0/WebAPI.runtimeconfig.json
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/bin/Debug/net9.0/WebAPI.dll
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/bin/Debug/net9.0/WebAPI.pdb
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/bin/Debug/net9.0/Microsoft.AspNetCore.OpenApi.dll
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/bin/Debug/net9.0/Microsoft.OpenApi.dll
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/bin/Debug/net9.0/Npgsql.dll
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/bin/Debug/net9.0/Common.dll
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/bin/Debug/net9.0/Model.dll
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/bin/Debug/net9.0/Repository.Common.dll
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/bin/Debug/net9.0/Repository.dll
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/bin/Debug/net9.0/Service.Common.dll
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/bin/Debug/net9.0/Service.dll
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/bin/Debug/net9.0/Common.pdb
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/bin/Debug/net9.0/Model.pdb
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/bin/Debug/net9.0/Repository.pdb
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/bin/Debug/net9.0/Repository.Common.pdb
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/bin/Debug/net9.0/Service.pdb
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/bin/Debug/net9.0/Service.Common.pdb
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/obj/Debug/net9.0/WebAPI.csproj.AssemblyReference.cache
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/obj/Debug/net9.0/WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/obj/Debug/net9.0/WebAPI.AssemblyInfoInputs.cache
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/obj/Debug/net9.0/WebAPI.AssemblyInfo.cs
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/obj/Debug/net9.0/WebAPI.csproj.CoreCompileInputs.cache
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/obj/Debug/net9.0/WebAPI.MvcApplicationPartsAssemblyInfo.cs
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/obj/Debug/net9.0/WebAPI.MvcApplicationPartsAssemblyInfo.cache
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/obj/Debug/net9.0/WebAPI.sourcelink.json
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/obj/Debug/net9.0/scopedcss/bundle/WebAPI.styles.css
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/obj/Debug/net9.0/staticwebassets.build.json
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/obj/Debug/net9.0/staticwebassets.development.json
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/obj/Debug/net9.0/staticwebassets.build.endpoints.json
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/obj/Debug/net9.0/staticwebassets/msbuild.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/obj/Debug/net9.0/staticwebassets/msbuild.WebAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/obj/Debug/net9.0/staticwebassets/msbuild.build.WebAPI.props
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.WebAPI.props
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.WebAPI.props
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/obj/Debug/net9.0/staticwebassets.pack.json
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/obj/Debug/net9.0/WebAPI.csproj.Up2Date
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/obj/Debug/net9.0/WebAPI.dll
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/obj/Debug/net9.0/refint/WebAPI.dll
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/obj/Debug/net9.0/WebAPI.pdb
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/obj/Debug/net9.0/WebAPI.genruntimeconfig.cache
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/obj/Debug/net9.0/ref/WebAPI.dll
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/bin/Debug/net9.0/Autofac.dll
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/bin/Debug/net9.0/Autofac.Extensions.DependencyInjection.dll
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/bin/Debug/net9.0/Microsoft.DotNet.PlatformAbstractions.dll
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/bin/Debug/net9.0/Microsoft.Extensions.DependencyModel.dll
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/bin/Debug/net9.0/Newtonsoft.Json.dll
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/mislavcacic/Documents/Programming/Mono praksa/WebAPI/WebAPI/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll
