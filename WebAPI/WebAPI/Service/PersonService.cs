@@ -1,40 +1,42 @@
 ﻿using Model;
-using Repository;
+using Repository.Common;
 using Service.Common;
+using Common;
 
 namespace Service
 {
     public class PersonService : IPersonService
     {
+        private IPersonRepository _personRepository;
+
+        public PersonService(IPersonRepository repository)
+        {
+            _personRepository = repository;
+        }
+
         public async Task<bool> SaveAsync(Person person)
         {
-            var repository = new PersonRepository();
-            return await repository.SaveAsync(person);
+            return await _personRepository.SaveAsync(person);
         }
 
         public async Task<bool> DeleteAsync(Guid id)
         {
-            var repository = new PersonRepository();
-            return await repository.DeleteAsync(id);
+            return await _personRepository.DeleteAsync(id);
         }
 
         public async Task<Person?> GetByIdAsync(Guid id)
         {
-            var repository = new PersonRepository();
-            return await repository.GetByIdAsync(id);
+            return await _personRepository.GetByIdAsync(id);
         }
 
         public async Task<bool> UpdateAsync(Guid id, Person person)
         {
-            var repository = new PersonRepository();
-            return await repository.UpdateAsync(id, person);
+            return await _personRepository.UpdateAsync(id, person);
         }
 
-        public async Task<List<Person>?> GetAllAsync(string? name, string? surname, string? email,
-            int? phoneNumber)
+        public async Task<List<Person>?> GetAllAsync(PersonFilter personFilter, Sorting sorting, Paging paging)
         {
-            var repository = new PersonRepository();
-            return await repository.GetAllAsync();
+            return await _personRepository.GetAllAsync(personFilter, sorting, paging);
         }
     }
 }

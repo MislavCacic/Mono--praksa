@@ -2,7 +2,9 @@ namespace WebAPI.Models
 {
     public class Person
     {
-        public Person() {}
+        public Person()
+        {
+        }
 
         public Person(Guid id, string name, string surname, string email, int phoneNumber)
         {
