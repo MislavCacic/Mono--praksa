@@ -22,7 +22,7 @@ namespace WebAPI.Controllers
             string orderBy = "Id", string sortOrder = "ASC",
             int currentPage = 1, int rpp = 5)
         {
-            var dogFilter = new PersonFilter()
+            var personFilter = new PersonFilter()
             {
                 Name = name,
                 Surname = surname,
@@ -40,7 +40,7 @@ namespace WebAPI.Controllers
                 PageNumber = currentPage,
             };
 
-            var response = await _service.GetAllAsync(dogFilter, sorting, paging);
+            var response = await _service.GetAllAsync(personFilter, sorting, paging);
 
             if (response == null)
                 return BadRequest();
