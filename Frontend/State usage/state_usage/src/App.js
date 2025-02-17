@@ -1,15 +1,23 @@
-import PeopleManager from "./components/PeopleManager";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { useState } from "react";
+import NavBar from "./components/NavBar";
+import Home from "./components/Home";
+import UserForm from "./components/UserForm";
+import User from "./components/User";
 
 function App() {
+	const [reloadUsers, setReloadUsers] = useState(false);
+	const [people, setPeople] = useState([]); // 🚀 Globalni state za sve korisnike
+
 	return (
-		<div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-200 to-blue-400 p-6">
-			<div className="bg-white shadow-2xl rounded-lg p-6 w-full max-w-md">
-				<h1 className="text-3xl font-bold text-center text-blue-600 mb-4">
-					Unos Osoba
-				</h1>
-				<PeopleManager />
-			</div>
-		</div>
+		<Router>
+			<NavBar />
+			<Routes>
+				<Route path="/" element={<Home />} />
+				<Route path="/add-user" element={<UserForm setReloadUsers={setReloadUsers} people={people} setPeople={setPeople} />} />
+				<Route path="/users" element={<User reloadUsers={reloadUsers} setReloadUsers={setReloadUsers} people={people} setPeople={setPeople} />} />
+			</Routes>
+		</Router>
 	);
 }
 
